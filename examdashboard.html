@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exam Admin Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    /* CSS for sidebar */
+    .sidebar {
+      background-color: #333;
+      width: 200px;
+      height: 100%;
+      position: fixed;
+      overflow: auto;
+      color: #fff;
+    }
+
+    .sidebar a {
+      padding: 16px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #555;
+    }
+
+    /* CSS for card layout */
+    .card {
+      margin: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="#">Dashboard</a>
+    <a href="#">Exams</a>
+    <a href="#">Results</a>
+    <a href="#">Students</a>
+  </div>
+
+  <div class="container" style="margin-left: 200px; padding: 16px;">
+    <h2>Exam Admin Dashboard</h2>
+
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Total Exams</h3>
+          <p class="card-text">10</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Upcoming Exams</h3>
+          <p class="card-text">5</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Results Published</h3>
+          <p class="card-text">7</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
